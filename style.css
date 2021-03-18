@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: url(https://cs.pikabu.ru/post_img/big/2013/06/09/8/1370778264_2045749863.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .background{
+    background-color: rgb(255, 254, 253);
+    padding: 10px;
+    font-size: 15pt;
+    margin-right: 1100px;
+    text-align: center;
+
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+    
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: both;
+  }
+  

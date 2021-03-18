@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комиксы/Книги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background" >
+    <div class="center" >
+    <form action="foto.html" >
+        <label>
+          Email
+          <input type="email" name="email" placeholder="example@mail.com">
+        </label>
+        <label>
+          Есть ли у вас любимая книга, или комикс?
+          <textarea name="feedback" rows="5" placeholder="Напишите прямо тут(если хотите конечно)..."></textarea>
+        </label>
+          <label for="size">Много читаете?</label>
+            <select>
+              <option value="xs" selected>Да</option>
+              <option value="s">Нет</option>
+              <option value="m" >Не часто</option>
+              <option value="l">Часто</option>
+           </select>
+           <label for="fav">Какой твой любимый жанр книги?</label>
+           <input list="school" name="fav" id="fav"/>
+           <datalist id="school">
+             <option>Детектив</option>
+             <option>Любовные романы</option>
+             <option>Поэзия</option>
+             <option>Ужасы</option>
+             <option>Приключения</option>
+             <option>Я не читаю книги</option>
+           </datalist>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+    </div>
+</body>
+</html>
